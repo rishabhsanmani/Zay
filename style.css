@@ -484,3 +484,38 @@
     display: flex;
     justify-content: space-evenly;
 }
+.form{
+    height: 40vh;
+    /* font-size: 30px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    background-color: beige;
+}
+.form div{
+    font-size: 20px;
+    margin-left: 50px;
+    display: flex;
+    padding: 20px;
+}
+.naamdal{
+    font-size: 20px;
+    margin-left: 80px;
+    align-items: center;
+    padding-left: 5px;
+}
+.emaildal{
+    font-size: 20px;
+    margin-left: 81px;
+    align-items: center;
+    padding-left: 5px;
+}
+.contactdal{
+    font-size: 20px;
+    margin-left: 20px;
+    align-items: center;
+    padding-left: 5px;
+}
+.enter{
+    font-size: 40px;
+    padding-left: 525px;
+}
