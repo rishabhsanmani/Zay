@@ -35,13 +35,36 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+
 }
 .options{
     font-size: 20px;
     padding-top: 10px;
     display: flex;
     gap: 150px;
-    
+    list-style: none;
+}
+.navbar label{
+    display: none;
+}
+
+#click:checked~.navbar ul{
+    display: block;
+}
+
+@media screen and (max-width:650px) {
+    .navbar label{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+        position: absolute;
+        top: 100px;
+        width: 100%;
+    }
+    .navbar ul a{
+        padding: 8px;
+    }
 }
 .icon{
     font-size: 20px;
